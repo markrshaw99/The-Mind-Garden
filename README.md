@@ -46,7 +46,7 @@ The live project can found here: <a href="https://markrshaw99.github.io/The-Mind
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
 
-
+<hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## Project Outline
@@ -60,12 +60,17 @@ The Mind Garden is ...
 - ...
 - ...
 - ...
+<hr>
+<p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## UX Design
 - ...
 - ...
+<hr>
+<p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## User Stories 
+- ...
 - ...
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
@@ -122,6 +127,7 @@ These low-fidelity wireframes have been created using [Balsamiq](https://balsami
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## Features
+
 ...
 
 ### General Features
@@ -182,25 +188,17 @@ Javascript
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## Deployment
-
-
-This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
-
 Setup a repo using this method and template:
 1. Login to your GitHub profile.
-2. Navigate to the Code Institute Full Template
-3. Click the dropdown for 'Use this template' and select "Create a new repository"
-4. Generate the necessary name and description for your repo and click 'Create repository from template'
-5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
-**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
-6. You can now work on your repository within the Code Institute Gitpod IDE workspace
-
+2.
+3.
+4.
+5.
+ 
 Once the project repo is created, an early deployment for the live project should performed.<br>
 This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
 
 Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
-
-
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
