@@ -1,0 +1,132 @@
+.signboard-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(240, 248, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.signboard-box {
+  background: url(../Images/signboard.png) no-repeat center center; /* Use your own image here */
+  background-size: contain;
+  width: 100vw;
+  max-width: 500px;
+  height:500px;
+  padding: 4rem;
+  text-align: center;
+  color: #3b2f1e;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  ;
+}
+
+#introOverlay h2 {
+font-size: 30px;
+margin-top: 50px;
+}
+
+#introOverlay p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+body { /* Adjust the percentage stops as needed */
+  background: url("../Images/Background Grass.jpg") center center fixed; /* Ensures the background covers the entire viewport */
+}
+.custom-navbar-bg {
+  background-color: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
+  backdrop-filter: blur(4px); /* optional: adds a blur effect */
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.1); /* white with 80% opacity */
+  backdrop-filter: blur(4px); /* optional: adds a blur effect */
+}
+
+.navbar-brand {
+  color: #3c2810;         /* Change text color */
+  font-family: 'lobster', serif;     /* Change font family */
+  font-size: 2rem;                   /* Change font size */
+  font-weight: bold;                 /* Make it bold */
+  letter-spacing: 2px;               /* Optional: letter spacing */
+}
+
+.scrollable-image-container {
+  width: auto;               /* Ensures the container fits within your layout */
+  overflow-x: auto;          /* Enables horizontal scrolling */
+  overflow-y: hidden;        /* Prevents vertical scrolling if not needed */
+  white-space: nowrap;       /* Helps if you're stacking inline elements */
+  box-sizing: border-box;
+  scrollbar-width: none;      /* For Firefox */
+  ms-overflow-style: none;   /* For Internet Explorer and Edge */
+  position: relative; /* Allows for absolute positioning of child elements if needed */
+  height: 92vh;              /* Full viewport height */
+  display: flex;            /* Allows for flexible layout */
+  justify-content: flex-start; /* Centers the content horizontally */
+  margin-top: 74px;
+}
+
+.scrollable-image-container::-webkit-scrollbar {
+  display: none;              /* For Chrome, Safari, and Opera */
+}
+
+.scrollable-image-container img {
+  display: block;           /* Removes any extra whitespace below the image */
+  width: auto;            /* Set to your image's intrinsic or desired width */
+  height: auto;             /* Adjusts height proportionally */
+    /* Fade left and right edges */
+  -webkit-mask-image: 
+    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, white 1%, white 95%, transparent 100%);
+  -webkit-mask-composite: intersect;
+  mask-image: 
+    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, white 1%, white 95%, transparent 100%);
+  mask-composite: intersect;
+}
+
+
+/* Responsive adjustments */
+/* Adjustments for Medium Screens */
+
+
+
+
+
+
+
+
+
+/* Adjustments for Large Screens */
+@media (min-width: 1280px) {
+  .scrollable-image-container {          /* Allows for flexible layout */
+    height: 95vh;              /* Full viewport height */
+    justify-content: center;
+  margin-top: 74px;
+}
+body {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.navbar-brand {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+#navbarScroll {
+    margin-left: 0;
+    margin-right: 15vw;
+    
+}
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
+  backdrop-filter: blur(4px); /* optional: adds a blur effect */
+}
+}
