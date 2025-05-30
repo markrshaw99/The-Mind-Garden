@@ -1,129 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mind Garden</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link href="Assets/CSS/styles.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-   <nav class="navbar navbar-expand-lg fixed-top w-100 custom-navbar-bg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">The Mind Garden</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 28vh;">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Beginning the Garden
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Planting Seeds</a></li>
-            <li><a class="dropdown-item" href="#">Pots & Plants</a></li>
-            <li><a class="dropdown-item" href="#">Flower Bed</a></li>
-          </ul>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Building Strength & Awareness
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">A Tree With Deep Roots</a></li>
-            <li><a class="dropdown-item" href="#">Sunshine</a></li>
-            <li><a class="dropdown-item" href="#">Bees & Butterflies</a></li>
-          </ul>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Facing Challenges
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Pesky Weeds</a></li>
-            <li><a class="dropdown-item" href="#">Rain Clouds</a></li>
-            <li><a class="dropdown-item" href="#">Watering Can</a></li>
-          </ul>
-        </li>
-      </ul>
+  <body>
+    <div id="introOverlay" class="signboard-overlay">
+      <div class="signboard-box">
+        <h2>Welcome to the Mind Garden</h2>
+        <p>Interact with the garden and let's take a walk together</p>
+        <button class="btn btn-outline-light" onclick="hideOverlay()">
+          🚶‍♂️ Enter Garden
+        </button>
+      </div>
     </div>
-  </div>
-</nav>
 
-<div class="scrollable-image-container">
-    <img src="Assets/Images/Mind Garden.jpg" alt="Mind Garden Background" usemap="#image-map"/>
-    <map name="image-map">
-    <area target="" alt="Mind Garden" title="Mind Garden" href="#mindgarden" coords="74,522,77,338,419,343,495,430,413,522" shape="poly">
-    <area target="" alt="Sun" title="Sunshine" href="#sunshine" coords="929,171,76" shape="circle">
-    <area target="" alt="Raincloud" title="Rain Cloud" href="#raincloud" coords="360,160,368,141,385,130,396,125,398,106,412,90,436,79,455,79,474,54,501,43,529,52,548,65,558,81,580,81,594,81,607,87,623,109,626,125,648,122,675,136,686,157,686,171,670,193,661,195,640,198,634,203,613,209,602,209,577,198,572,209,556,214,542,214,520,212,515,201,501,206,480,212,458,212,442,198,434,190,420,195,401,201,387,193,371,193,363,174" shape="poly">
-    <area target="" alt="Weeds" title="Pesky Weeds" href="#weeds" coords="618,724,634,694,588,632,607,610,645,578,637,518,686,534,678,488,710,507,716,456,737,456,754,496,784,496,778,532,803,532,808,553,803,589,846,559,860,583,889,613,860,670,860,694,843,713,729,705,697,703,661,727" shape="poly">
-    <area target="" alt="Watering can" title="Watering Can" href="#wateringcan" coords="946,610,898,602,868,580,873,553,819,486,778,480,767,453,786,426,819,412,835,420,843,445,843,461,876,494,876,420,900,377,955,344,993,361,990,353,1014,385,1028,415,1052,415,1079,426,1090,448,1093,475,1093,499,1039,551,1047,583,998,608" shape="poly">
-    <area target="" alt="Bees" title="Bees" href="#bees" coords="629,418,632,380,640,358,610,328,623,304,653,309,670,282,708,282,716,309,770,296,784,309,800,263,816,263,835,285,873,288,868,323,843,336,860,363,860,396,830,407,792,412,754,372,724,396,713,415,699,426,683,434,651,429" shape="poly">
-    <area target="" alt="Flower Bed" title="Flower Bed" href="#flowerbed" coords="16,958,29,760,21,697,83,662,132,621,165,621,197,678,309,670,344,616,398,610,439,580,482,583,501,608,510,678,545,730,545,776,569,781,607,762,651,765,664,814,691,819,705,901,697,955,648,979,336,985,140,982" shape="poly">
-    <area target="" alt="Tree With Deep Roots" title="Tree With Deep Roots" href="#tree" coords="1120,574,1147,549,1226,530,1242,490,1240,408,1196,411,1123,384,1060,340,1031,292,1052,240,1071,161,1112,83,1177,47,1250,47,1313,34,1378,53,1394,75,1438,75,1443,104,1486,153,1519,202,1527,267,1527,321,1500,359,1470,387,1397,411,1356,430,1356,473,1378,511,1410,522,1457,555,1481,568,1481,598,1419,620,1348,633,1278,587,1183,620,1147,598" shape="poly">
-    <area target="" alt="Pots & Plants" title="Pots & Plants" href="#potsandplants" coords="976,967,952,869,946,845,946,796,993,777,1033,777,1028,739,987,742,936,731,933,701,955,680,987,666,1012,666,1031,688,1041,655,1074,631,1123,631,1115,696,1088,712,1131,723,1158,745,1161,777,1112,783,1145,810,1145,845,1139,867,1131,867,1117,959,1090,978,1050,986,1017,986" shape="poly">
-    <area target="" alt="Planting Seeds" title="Planting Seeds" href="#plantingseeds" coords="1286,888,1264,777,1269,728,1340,717,1286,669,1297,631,1340,647,1362,677,1364,661,1400,650,1429,650,1419,688,1413,715,1446,728,1451,807,1505,831,1508,880,1484,956,1438,981,1400,978,1364,951,1367,913,1318,902" shape="poly">
-    </map>
-</div>
+    <nav class="navbar navbar-expand-lg fixed-top w-100 custom-navbar-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">The Mind Garden</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 28vh"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Beginning the Garden
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Planting Seeds</a></li>
+                <li><a class="dropdown-item" href="#">Pots & Plants</a></li>
+                <li><a class="dropdown-item" href="#">Flower Bed</a></li>
+              </ul>
+            </li>
 
-<section id="mindgarden">0</section>
-    <br>
-    <br>
-    <br>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Building Strength & Awareness
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">A Tree With Deep Roots</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Sunshine</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Bees & Butterflies</a>
+                </li>
+              </ul>
+            </li>
 
-<section id="plantingseeds">1</section>
-    <br>
-    <br>
-    <br>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Facing Challenges
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pesky Weeds</a></li>
+                <li><a class="dropdown-item" href="#">Rain Clouds</a></li>
+                <li><a class="dropdown-item" href="#">Watering Can</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<section id="potsandplants">2</section>
-    <br>
-    <br>
-    <br>
+    <div class="scrollable-image-container">
+      <img
+        src="Assets/Images/Mind Garden.jpg"
+        alt="Mind Garden Background"
+        usemap="#image-map"
+      />
+      <map name="image-map">
+        <area
+          target=""
+          alt="Mind Garden"
+          title="Mind Garden"
+          href="#mindgarden"
+          coords="74,522,77,338,419,343,495,430,413,522"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Sun"
+          title="Sunshine"
+          href="#sunshine"
+          coords="929,171,76"
+          shape="circle"
+        />
+        <area
+          target=""
+          alt="Raincloud"
+          title="Rain Cloud"
+          href="#raincloud"
+          coords="360,160,368,141,385,130,396,125,398,106,412,90,436,79,455,79,474,54,501,43,529,52,548,65,558,81,580,81,594,81,607,87,623,109,626,125,648,122,675,136,686,157,686,171,670,193,661,195,640,198,634,203,613,209,602,209,577,198,572,209,556,214,542,214,520,212,515,201,501,206,480,212,458,212,442,198,434,190,420,195,401,201,387,193,371,193,363,174"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Weeds"
+          title="Pesky Weeds"
+          href="#weeds"
+          coords="618,724,634,694,588,632,607,610,645,578,637,518,686,534,678,488,710,507,716,456,737,456,754,496,784,496,778,532,803,532,808,553,803,589,846,559,860,583,889,613,860,670,860,694,843,713,729,705,697,703,661,727"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Watering can"
+          title="Watering Can"
+          href="#wateringcan"
+          coords="946,610,898,602,868,580,873,553,819,486,778,480,767,453,786,426,819,412,835,420,843,445,843,461,876,494,876,420,900,377,955,344,993,361,990,353,1014,385,1028,415,1052,415,1079,426,1090,448,1093,475,1093,499,1039,551,1047,583,998,608"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Bees"
+          title="Bees"
+          href="#bees"
+          coords="629,418,632,380,640,358,610,328,623,304,653,309,670,282,708,282,716,309,770,296,784,309,800,263,816,263,835,285,873,288,868,323,843,336,860,363,860,396,830,407,792,412,754,372,724,396,713,415,699,426,683,434,651,429"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Flower Bed"
+          title="Flower Bed"
+          href="#flowerbed"
+          coords="16,958,29,760,21,697,83,662,132,621,165,621,197,678,309,670,344,616,398,610,439,580,482,583,501,608,510,678,545,730,545,776,569,781,607,762,651,765,664,814,691,819,705,901,697,955,648,979,336,985,140,982"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Tree With Deep Roots"
+          title="Tree With Deep Roots"
+          href="#tree"
+          coords="1120,574,1147,549,1226,530,1242,490,1240,408,1196,411,1123,384,1060,340,1031,292,1052,240,1071,161,1112,83,1177,47,1250,47,1313,34,1378,53,1394,75,1438,75,1443,104,1486,153,1519,202,1527,267,1527,321,1500,359,1470,387,1397,411,1356,430,1356,473,1378,511,1410,522,1457,555,1481,568,1481,598,1419,620,1348,633,1278,587,1183,620,1147,598"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Pots & Plants"
+          title="Pots & Plants"
+          href="#potsandplants"
+          coords="976,967,952,869,946,845,946,796,993,777,1033,777,1028,739,987,742,936,731,933,701,955,680,987,666,1012,666,1031,688,1041,655,1074,631,1123,631,1115,696,1088,712,1131,723,1158,745,1161,777,1112,783,1145,810,1145,845,1139,867,1131,867,1117,959,1090,978,1050,986,1017,986"
+          shape="poly"
+        />
+        <area
+          target=""
+          alt="Planting Seeds"
+          title="Planting Seeds"
+          href="#plantingseeds"
+          coords="1286,888,1264,777,1269,728,1340,717,1286,669,1297,631,1340,647,1362,677,1364,661,1400,650,1429,650,1419,688,1413,715,1446,728,1451,807,1505,831,1508,880,1484,956,1438,981,1400,978,1364,951,1367,913,1318,902"
+          shape="poly"
+        />
+      </map>
+    </div>
 
-<section id="flowerbed">3</section>
-    <br>
-    <br>
-    <br>
+    <section id="mindgarden">0</section>
+    <br />
+    <br />
+    <br />
 
-<section id="tree">5</section>
-    <br>
-    <br>
-    <br>
+    <section id="plantingseeds">1</section>
+    <br />
+    <br />
+    <br />
 
-<section id="sunshine">4</section>
-    <br>
-    <br>
-    <br>
+    <section id="potsandplants">2</section>
+    <br />
+    <br />
+    <br />
 
-<section id="bees">6</section>
-    <br>
-    <br>
-    <br>
+    <section id="flowerbed">3</section>
+    <br />
+    <br />
+    <br />
 
-<section id="weeds">7</section>
-    <br>
-    <br>
-    <br>
+    <section id="tree">5</section>
+    <br />
+    <br />
+    <br />
 
-<section id="raincloud">8</section>
-    <br>
-    <br>
-    <br>
+    <section id="sunshine">4</section>
+    <br />
+    <br />
+    <br />
 
-<section id="wateringcan">9</section>
-    <br>
-    <br>
-    <br>
-</body>
+    <section id="bees">6</section>
+    <br />
+    <br />
+    <br />
 
-<script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    <section id="weeds">7</section>
+    <br />
+    <br />
+    <br />
 
+    <section id="raincloud">8</section>
+    <br />
+    <br />
+    <br />
 
+    <section id="wateringcan">9</section>
+    <br />
+    <br />
+    <br />
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+  <script>
+    window.onload = function () {
+      imageMapResize();
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function hideOverlay() {
+      const overlay = document.getElementById("introOverlay");
+      overlay.style.opacity = "0";
+      setTimeout(() => (overlay.style.display = "none"), 600);
+    }
+
+    // Optionally, auto-hide after some time
+    // setTimeout(hideOverlay, 8000);
+  </script>
 </html>
