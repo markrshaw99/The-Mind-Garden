@@ -3,7 +3,7 @@ HTML, CSS, Bootstrap project for Code Instititue
 
 # The Mind Garden
 
-![The Mind Garden - Project Banner](/documentation/images/afa-project-banner.webp)
+![The Mind Garden - Project Banner](/Assets/Images/Mind%20Garden.jpg)
 
 
 <p align="center">
