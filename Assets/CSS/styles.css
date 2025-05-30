@@ -95,7 +95,8 @@ body { /* Adjust the percentage stops as needed */
 
 
 /* Responsive adjustments */
-/* Adjustments for Medium Screens */
+
+/* Adjustments for Medium Screens/Tablets */
 
 
 
@@ -105,7 +106,7 @@ body { /* Adjust the percentage stops as needed */
 
 
 
-/* Adjustments for Large Screens */
+/* Adjustments for Large Screens/Laptops/Desktops */
 @media (min-width: 1280px) {
   .scrollable-image-container {          /* Allows for flexible layout */
     height: 95vh;              /* Full viewport height */

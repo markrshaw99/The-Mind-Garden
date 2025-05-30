@@ -72,6 +72,19 @@ The Mind Garden is ...
 ## User Stories 
 - ...
 - ...
+
+| **Name & Context**| **Quote**| **Design Needs**|
+|-|-|-|
+| Ravi, 26, University Student | "When I feel anxious, I need something calming and easy to understand..."| - Visual, image-based navigation<br>- “Grounding Tree” (5-4-3-2-1 technique)<br>- Mood/weather tracker<br>- Simple, non-intrusive layout|
+| Ellie, 34, Working Mum| "I don’t have much time to sit and read..."| - Expandable “Seedlings of Wisdom” cards<br>- Carousel of support/self-care tips<br>- Watering can feature<br>- Affirmation boxes or “Daily Seed” generator             |
+| Chris, 42, Tech Professional           | "I’m new to the idea of mental wellbeing..."                                                 | - Metaphor-driven navigation<br>- Informational cards with psychology references<br>- “Tree with Deep Roots” section<br>- Quote-based footer                             |
+| Amina, 29, Artist                      | "I connect better with visuals than paragraphs..."                                           | - Entire site as garden metaphor<br>- Use of icons and visual metaphors<br>- Subtle interactivity<br>- Custom background as interactive map                             |
+| Tom, 51, Recently Bereaved             | "Some days are hard. I want a place that acknowledges that..."                               | - “Weathering Storms” section<br>- Mood icon tracker<br>- Grounding section<br>- Option for private journaling                                                          |
+| Sam, 19, Exploring Mental Health       | "I’ve never really investigated this stuff before..."                                        | - Friendly, emoji-accented metaphors<br>- Clear, encouraging tone<br>- “Letting in the Light” section<br>- Gentle animations                                            |
+| Jess, 37, Therapist                    | "I’d like a mental wellness site that I can point clients to..."                             | - Informational but non-medical tone<br>- Garden-style navigational layout<br>- Printable/downloadable resources<br>- Accessible, responsive design                    |
+| Kai, 45, Lives with ADHD               | "I struggle with long pages and scattered layouts..."                                        | - One-page or snap-scrolling design<br>- Consistent colour coding<br>- Emphasis on iconography and short text                                                           |
+
+
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
@@ -80,7 +93,6 @@ The Mind Garden is ...
 Color selection is a key component...
 
 To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
-Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
 ### Main Palette
 
