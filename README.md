@@ -167,7 +167,9 @@ These low-fidelity wireframes have been created using [Balsamiq](https://balsami
 
 ### Technologies and Languages
 
-...
+HTML
+CSS
+Javascript
 
 ### Libraries and Frameworks
 <a href="https://getbootstrap.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Bootstrap-v5.3.3-grey?logo=bootstrap&logoColor=%23ffffff&color=%237952B3)</a>
@@ -251,9 +253,7 @@ The additional [research](/documentation/research.md) has been compiled into lis
 
 ### Acknowledgements
 
-- Rhiannon and Jessie for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
-- Julia for providing feedback on design and navigation and also identifying typos.
-- Space_Mumma for providing feedback on design and also inadvertently corroborating my decision to use the astronaut character for this project.
+- ...
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
