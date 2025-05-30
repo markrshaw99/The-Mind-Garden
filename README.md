@@ -7,7 +7,7 @@ HTML, CSS, Bootstrap project for Code Instititue
 
 
 <p align="center">
-| <a href="https://markrshaw99.github.io/the-mind-garden/" target="_blank">Live Project</a> |
+| <a href="https://markrshaw99.github.io/The-Mind-Garden/" target="_blank">Live Project</a> |
 </p>
 
 ## Introduction 
