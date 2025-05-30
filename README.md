@@ -1,4 +1,3 @@
-
 # The Mind Garden
 
 ![The Mind Garden - Project Banner](/Assets/Images/Mind%20Garden.jpg)
