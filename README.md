@@ -9,7 +9,7 @@
 
 ## Introduction 
 
-The Mind Garden is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about safeguarding.
+The Mind Garden is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about Mental Health Awareness.
 
 The live project can found here: <a href="https://markrshaw99.github.io/The-Mind-Garden/" target="_blank">The Mind Garden</a>
 
