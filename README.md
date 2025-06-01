@@ -73,16 +73,16 @@ The Mind Garden is ...
 - ...
 - ...
 
-| **Name & Context**| **Quote**| **---------------------- Design Need---------------------------------**|
+| **Name & Context**| **Quote**| **Design Needs**|
 |-|-|-|
-| Ravi, 26, University Student | "When I feel anxious, I need something calming and easy to understand..."| - Visual, image-based navigation<br>- “Grounding Tree” (5-4-3-2-1 technique)<br>- Mood/weather tracker<br>- Simple, non-intrusive layout|
-| Ellie, 34, Working Mum| "I don’t have much time to sit and read..."| - Expandable “Seedlings of Wisdom” cards<br>- Carousel of support/self-care tips<br>- Watering can feature<br>- Affirmation boxes or “Daily Seed” generator             |
-| Chris, 42, Tech Professional           | "I’m new to the idea of mental wellbeing..."                                                 | - Metaphor-driven navigation<br>- Informational cards with psychology references<br>- “Tree with Deep Roots” section<br>- Quote-based footer                             |
-| Amina, 29, Artist                      | "I connect better with visuals than paragraphs..."                                           | - Entire site as garden metaphor<br>- Use of icons and visual metaphors<br>- Subtle interactivity<br>- Custom background as interactive map                             |
-| Tom, 51, Recently Bereaved             | "Some days are hard. I want a place that acknowledges that..."                               | - “Weathering Storms” section<br>- Mood icon tracker<br>- Grounding section<br>- Option for private journaling                                                          |
-| Sam, 19, Exploring Mental Health       | "I’ve never really investigated this stuff before..."                                        | - Friendly, emoji-accented metaphors<br>- Clear, encouraging tone<br>- “Letting in the Light” section<br>- Gentle animations                                            |
-| Jess, 37, Therapist                    | "I’d like a mental wellness site that I can point clients to..."                             | - Informational but non-medical tone<br>- Garden-style navigational layout<br>- Printable/downloadable resources<br>- Accessible, responsive design                    |
-| Kai, 45, Lives with ADHD               | "I struggle with long pages and scattered layouts..."                                        | - One-page or snap-scrolling design<br>- Consistent colour coding<br>- Emphasis on iconography and short text                                                           |
+| Ravi, 26, University Student | "When I feel anxious, I need something calming and easy to understand, so I can ground myself without reading too much or feeling overwhelmed."| - Visual, image-based navigation<br>- “Grounding Tree” (5-4-3-2-1 technique)<br>- Mood/weather tracker<br>- Simple, non-intrusive layout|
+| Ellie, 34, Working Mum| “I don’t have much time to sit and read — I want quick, clear tips that help me recentre, even if I only have two minutes.”| - Expandable “Seedlings of Wisdom” cards<br>- Carousel of support/self-care tips<br>- Watering can feature<br>- Affirmation boxes or “Daily Seed” generator|
+| Chris, 42, Tech Professional| “I’m new to the idea of mental wellbeing, but I’d like to explore it in a way that feels thoughtful, not patronising.”| - Metaphor-driven navigation<br>- Informational cards with psychology references<br>- “Tree with Deep Roots” section<br>- Quote-based footer|
+| Amina, 29, Artist| “I connect better with visuals than paragraphs. I want something beautiful, intuitive, and metaphor-rich that speaks to emotion.”| - Entire site as garden metaphor<br>- Use of icons and visual metaphors<br>- Subtle interactivity<br>- Custom background as interactive map                             |
+| Tom, 51, Recently Bereaved| “Some days are hard. I want a place that acknowledges that without pretending I should just be happy.”| - “Weathering Storms” section<br>- Mood icon tracker<br>- Grounding section<br>- Option for private journaling                                                          |
+| Sam, 19, Exploring Mental Health       | “I’ve never really investigated this stuff before, but I want to start. I need it to be simple and not feel medical or formal.”| - Friendly, emoji-accented metaphors<br>- Clear, encouraging tone<br>- “Letting in the Light” section<br>- Gentle animations                                            |
+| Jess, 37, Therapist                    | “I’d like a mental wellness site that I can point clients to as a soft starting point, without clinical overtones.”| - Informational but non-medical tone<br>- Garden-style navigational layout<br>- Printable/downloadable resources<br>- Accessible, responsive design                    |
+| Kai, 45, Lives with ADHD               | “I struggle with long pages and scattered layouts. I need clear sectioning, minimal distractions, and visual cues.”| - One-page or snap-scrolling design<br>- Consistent colour coding<br>- Emphasis on iconography and short text                                                           |
 
 
 <hr>
