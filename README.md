@@ -252,14 +252,11 @@ All additional sources that complemented my learning can be round within additio
 
 ### Content Research
 
-Due to the nature of the content within this project I was taken down many avenues of research, in part for specifics regarding the content, but also as part of my own personal development and continued learning on how to apply learning objectives to research methodologies. 
-
-The additional [research](/documentation/research.md) has been compiled into list and can be found within the documentation folder of this repo. 
+...
 
 ### Media
 
-- Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
-- Static badges for README documentation [Shields.io](https://shields.io/badges/static-badge) & [Simple Icons](https://simpleicons.org/)
+- ...
 
 ### Acknowledgements
 
