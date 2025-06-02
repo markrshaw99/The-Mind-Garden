@@ -1,17 +1,27 @@
 /* General Styles */
 
 .custom-fade {
- background: rgba(255,255,255,0.75);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 2rem;
-  box-shadow:
-    0 0 48px 24px rgba(255,255,255,0.4);
+  box-shadow: 0 0 48px 24px rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
 
   /* Fade out edges using a mask */
 
-  mask-image: 
-    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
-    linear-gradient(to bottom, transparent 0%, white 1%, white 99%, transparent 100%);
+  mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      white 1%,
+      white 99%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      white 1%,
+      white 99%,
+      transparent 100%
+    );
   mask-composite: intersect;
 }
 
@@ -32,29 +42,28 @@
 }
 
 .signboard-box {
-  background: url(../Images/signboard-mobile.png) no-repeat center center; /* Use your own image here */
+  background: url(../Images/signboard-mobile.png) no-repeat center center;
   background-size: contain;
   width: 100vw;
   max-width: 500px;
-  height:600px;
+  height: 600px;
   padding: 4rem;
   text-align: center;
   color: #3b2f1e;
-  font-family: 'segoe UI', serif; 
+  font-family: "segoe UI", serif;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-  .signboard-box h2 {
-    font-family: lobster, serif; /* Change font family */
-    font-size: 2.5rem; /* Change font size */
-  }
-
+.signboard-box h2 {
+  font-family: lobster, serif;
+  font-size: 2.5rem;
+}
 
 #introOverlay h2 {
-font-size: 30px;
-margin-top: 50px;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 #introOverlay p {
@@ -63,52 +72,60 @@ margin-top: 50px;
 }
 /* Signboard & Intro Styles End */
 
-
 /* Background, Navbar and Hero Image/comtainer */
 body {
-  background: url("../Images/background-grass.jpg") center center fixed; 
+  background: url("../Images/background-grass.jpg") center center fixed;
 }
 
 .custom-navbar-bg {
-  background-color: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
-  backdrop-filter: blur(4px); /* optional: adds a blur effect */
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
 }
 
 .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.1); /* white with 80% opacity */
-  backdrop-filter: blur(4px); /* optional: adds a blur effect */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
 }
 
 .navbar-brand {
-  color: #3c2810;         /* Change text color */
-  font-family: 'lobster', serif;     /* Change font family */
-  font-size: 2rem;                   /* Change font size */
-  font-weight: bold;                 /* Make it bold */
-  letter-spacing: 2px;               /* Optional: letter spacing */
+  color: #3b5f3b;
+  font-family: "lobster", serif;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .scrollable-image-container {
-  width: auto;               /* Ensures the container fits within your layout */
-  overflow-x: auto;          /* Enables horizontal scrolling */
-  overflow-y: hidden;        /* Prevents vertical scrolling if not needed */
-  white-space: nowrap;       /* Helps if you're stacking inline elements */
+  width: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
   box-sizing: border-box;
   scrollbar-width: none;
-  position: relative; /* Allows for absolute positioning of child elements if needed */
-  height: 92vh;              /* Full viewport height */
-  display: flex;            /* Allows for flexible layout */
-  justify-content: flex-start; /* Centers the content horizontally */
+  position: relative;
+  height: 92vh;
+  display: flex;
+  justify-content: flex-start;
   margin-top: 74px;
 }
 
 .scrollable-image-container img {
-  display: block;           /* Removes any extra whitespace below the image */
-  width: auto;            /* Set to your image's intrinsic or desired width */
-  height: auto;             /* Adjusts height proportionally */
-    /* Fade left and right edges */
-  mask-image: 
-    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
-    linear-gradient(to bottom, transparent 0%, white 1%, white 95%, transparent 100%);
+  display: block;
+  width: auto;
+  height: auto;
+  mask-image: linear-gradient(
+      to right,
+      transparent 0%,
+      white 1%,
+      white 99%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      white 1%,
+      white 95%,
+      transparent 100%
+    );
   mask-composite: intersect;
 }
 
@@ -120,9 +137,6 @@ section {
 
 /* Mind Garden Section Styles */
 
-.intro-section {
-}
-
 .intro-section .text-muted {
   font-size: 0.95rem;
   color: #6c757d !important;
@@ -133,7 +147,6 @@ section {
 }
 
 /* Mind Garden Section Styles End */
-
 
 /* Seed Card Styles */
 .seed-card {
@@ -189,65 +202,106 @@ section {
 }
 /* Seed Card Styles End */
 
+/* Pots & Plants Section Styles */
+
+/* 🌱 General Pot Styling */
+.card {
+  border: none;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to top, #e0f2df, #ffffff);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌻 Section header style */
+.container h1 {
+  color: #3b5f3b;
+}
+.container h2 {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  color: #3b5f3b;
+  text-shadow: 1px 1px #d4eed1;
+}
+
+/* 🌾 Custom buttons */
+.btn-outline-success,
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-danger,
+.btn-outline-info,
+.btn-outline-dark,
+.btn-outline-warning {
+  border-radius: 2rem;
+  font-weight: 500;
+  padding: 0.4rem 1.2rem;
+}
+
+/* Optional: plant emoji grows slightly on hover */
+button.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Pots & Plants Section Styles End */
+
+
+
 /* Responsive adjustments */
 
 /* Adjustments for Medium Screens/Tablets */
 
-
-
-
-
-
-
-
-
 /* Adjustments for Large Screens/Laptops/Desktops */
 @media (min-width: 1280px) {
-  .scrollable-image-container {          /* Allows for flexible layout */
-    height: 95vh;              /* Full viewport height */
+  .scrollable-image-container {
+    height: 95vh;
     justify-content: center;
-  margin-top: 74px;
-}
-body {
+    margin-top: 74px;
+  }
+  body {
     margin-left: 15vw;
     margin-right: 15vw;
-}
-.navbar-brand {
+  }
+  .navbar-brand {
     margin-left: 15vw;
     margin-right: 15vw;
-}
-#navbarScroll {
+  }
+  #navbarScroll {
     margin-left: 0;
     margin-right: 15vw;
-    
-}
-.dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
-  backdrop-filter: blur(4px); /* optional: adds a blur effect */
-}
+  }
+  .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+  }
 
- .signboard-box {
+  .signboard-box {
     background: url(../Images/signboard-desktop.png) no-repeat center center;
     background-size: 100% 100%;
     width: 40vw;
     max-width: 600px;
     min-width: 350px;
     min-height: 200px;
-    /* Reduce top padding, increase bottom padding */
     padding: 8.5rem 5rem 6rem 5rem;
     text-align: center;
     color: #3b2f1e;
-    font-family: 'Lobster', serif;
+    font-family: "Lobster", serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 100px;
     box-sizing: border-box;
     overflow: visible;
- }
+  }
 
-.signboard-box p, .signboard-box button {
-  font-family: 'Segoe UI', sans-serif;
-}
-
+  .signboard-box p,
+  .signboard-box button {
+    font-family: "Segoe UI", sans-serif;
+  }
 }
