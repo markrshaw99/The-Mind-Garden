@@ -36,14 +36,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 28vh">
+          <li class="nav-item"><a class="nav-link" href="#mindgarden">Your Mind Is A Garden</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Beginning the Garden
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Planting Seeds</a></li>
-              <li><a class="dropdown-item" href="#">Pots & Plants</a></li>
-              <li><a class="dropdown-item" href="#">Flower Bed</a></li>
+              <li><a class="dropdown-item" href="#plantingseeds">Planting Seeds</a></li>
+              <li><a class="dropdown-item" href="#potsandplants">Pots & Plants</a></li>
+              <li><a class="dropdown-item" href="#flowerbed">Flower Bed</a></li>
             </ul>
           </li>
 
@@ -52,13 +53,9 @@
               Building Strength & Awareness
             </a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="#">A Tree With Deep Roots</a>
-              </li>
-              <li><a class="dropdown-item" href="#">Sunshine</a></li>
-              <li>
-                <a class="dropdown-item" href="#">Bees & Butterflies</a>
-              </li>
+              <li><a class="dropdown-item" href="#tree">A Tree With Deep Roots</a></li>
+              <li><a class="dropdown-item" href="#sunshine">Sunshine</a></li>
+              <li><a class="dropdown-item" href="#bees">Bees & Butterflies</a></li>
             </ul>
           </li>
 
@@ -67,9 +64,9 @@
               Facing Challenges
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Pesky Weeds</a></li>
-              <li><a class="dropdown-item" href="#">Rain Clouds</a></li>
-              <li><a class="dropdown-item" href="#">Watering Can</a></li>
+              <li><a class="dropdown-item" href="#weeds">Pesky Weeds</a></li>
+              <li><a class="dropdown-item" href="#raincloud">Rain Clouds</a></li>
+              <li><a class="dropdown-item" href="#wateringcan">Watering Can</a></li>
             </ul>
           </li>
         </ul>
@@ -117,13 +114,11 @@
           <h1 class="display-4" style="font-family: 'Lobster', cursive;">Welcome to the Mind Garden</h1>
 
           <p class="lead mt-4">
-            In this space, your mind is a garden — a living, breathing landscape shaped by thought, emotion, and
-            intention.
+            In this space, your mind is a garden — a living, breathing landscape shaped by thought, emotion, and intention. Step into this world where every plant, flower, and weed is a metaphor for your mind. Here, you can nurture your thoughts, explore your feelings, and cultivate new habits.
           </p>
 
           <p>
-            Each seed planted here is a new idea or habit. Each weed is a challenge to understand. The sun brings
-            clarity, and even the rain has something to teach.
+            Each seed planted here is a new idea. Each weed is a challenge to understand. The sun brings clarity, and even the rain has something to teach.
           </p>
 
           <p>
@@ -135,7 +130,7 @@
 
           <p class="text-muted">
             🖼️ <strong>Explore the garden image above:</strong> Each part of the illustration is clickable — from the
-            sun to the watering can. Tap or click to jump directly to that section.
+            sun and the bees to the clouds and the weeds. Tap or click to jump directly to that section.
           </p>
 
           <p class="text-muted d-md-none">
@@ -493,7 +488,7 @@
   function hideOverlay() {
     const overlay = document.getElementById("introOverlay");
     overlay.style.opacity = "0";
-    setTimeout(() => (overlay.style.display = "none"), 600);
+    setTimeout(() => (overlay.style.display = "none"), 2000);
   }
 
   // Optionally, auto-hide after some time

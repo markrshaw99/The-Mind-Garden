@@ -2,11 +2,9 @@
 
 .custom-fade {
   background: rgba(255, 255, 255, 0.75);
-  border-radius: 2rem;
+  border-radius: 1rem;
   box-shadow: 0 0 48px 24px rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(8px);
-
-  /* Fade out edges using a mask */
 
   mask-image: linear-gradient(
       to right,
@@ -18,8 +16,8 @@
     linear-gradient(
       to bottom,
       transparent 0%,
-      white 1%,
-      white 99%,
+      white 2%,
+      white 98%,
       transparent 100%
     );
   mask-composite: intersect;
@@ -39,6 +37,7 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
+  transition: opacity 2s;
 }
 
 .signboard-box {
@@ -308,13 +307,13 @@ button.btn:hover {
   }
 
    .signboard-box h2 {
-    margin-bottom: 3rem; /* Increase space below h2 */
+    margin-bottom: 3rem;
   }
   .signboard-box p {
-    margin-bottom: 2rem; /* Increase space below p */
+    margin-bottom: 2rem;
   }
   .signboard-box button {
-    margin-top: 2.5rem; /* Increase space above button */
+    margin-top: 2.5rem;
   }
 
 }
