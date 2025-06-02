@@ -1,3 +1,26 @@
+/* General Styles */
+
+.custom-fade {
+ background: rgba(255,255,255,0.75);
+  border-radius: 2rem;
+  box-shadow:
+    0 0 48px 24px rgba(255,255,255,0.4);
+  backdrop-filter: blur(8px);
+
+  /* Fade out edges using a mask */
+  -webkit-mask-image: 
+    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, white 1%, white 99%, transparent 100%);
+  -webkit-mask-composite: intersect;
+  mask-image: 
+    linear-gradient(to right, transparent 0%, white 1%, white 99%, transparent 100%),
+    linear-gradient(to bottom, transparent 0%, white 1%, white 99%, transparent 100%);
+  mask-composite: intersect;
+}
+
+/* General Styles End */
+
+/* Signboard & Intro Styles */
 .signboard-overlay {
   position: fixed;
   top: 0;
@@ -24,7 +47,12 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  ;
+}
+
+  .signboard-box h2 {
+    font-family: lobster, serif; /* Change font family */
+    font-size: 2.5rem; /* Change font size */
+  }
 }
 
 #introOverlay h2 {
@@ -36,11 +64,14 @@ margin-top: 50px;
   font-size: 20px;
   line-height: 1.5;
 }
+/* Signboard & Intro Styles End */
 
 
-body { /* Adjust the percentage stops as needed */
-  background: url("../Images/Background Grass.jpg") center center fixed; /* Ensures the background covers the entire viewport */
+/* Background, Navbar and Hero Image/comtainer */
+body {
+  background: url("../Images/Background Grass.jpg") center center fixed; 
 }
+
 .custom-navbar-bg {
   background-color: rgba(255, 255, 255, 0.4); /* white with 80% opacity */
   backdrop-filter: blur(4px); /* optional: adds a blur effect */
@@ -93,6 +124,30 @@ body { /* Adjust the percentage stops as needed */
   mask-composite: intersect;
 }
 
+section {
+  scroll-margin-top: 74px;
+}
+
+/* Background, Navbar and Hero Image/comtainer End */
+
+/* Mind Garden Section Styles */
+
+.intro-section {
+}
+
+.intro-section .text-muted {
+  font-size: 0.95rem;
+  color: #6c757d !important;
+}
+
+.intro-section img {
+  object-fit: contain;
+}
+
+/* Mind Garden Section Styles End */
+
+
+/* Seed Card Styles */
 .seed-card {
   width: 100%;
   max-width: 250px;
@@ -144,7 +199,7 @@ body { /* Adjust the percentage stops as needed */
   border: 1px solid #ddd;
   font-style: italic;
 }
-
+/* Seed Card Styles End */
 
 /* Responsive adjustments */
 
@@ -183,21 +238,25 @@ body {
   backdrop-filter: blur(4px); /* optional: adds a blur effect */
 }
 
-.signboard-box {
-  background: url(../Images/signboarddesktop.png) no-repeat center center; /* Use your own image here */
-  background-size: contain;
-  width: 50vw;
-  max-width: 500px;
-  height:600px;
-  padding: 4rem;
-  text-align: center;
-  color: #3b2f1e;
-  font-family: 'Lobster', serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  ;
-}
+ .signboard-box {
+    background: url(../Images/signboarddesktop.png) no-repeat center center;
+    background-size: 100% 100%;
+    width: 40vw;
+    max-width: 600px;
+    min-width: 350px;
+    min-height: 200px;
+    /* Reduce top padding, increase bottom padding */
+    padding: 8.5rem 5rem 6rem 5rem;
+    text-align: center;
+    color: #3b2f1e;
+    font-family: 'Lobster', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    overflow: visible;
+ }
 
 .signboard-box p, .signboard-box button {
   font-family: 'Segoe UI', sans-serif;
