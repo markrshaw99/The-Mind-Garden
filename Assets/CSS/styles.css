@@ -47,22 +47,19 @@
   width: 100vw;
   max-width: 500px;
   height: 600px;
-  padding: 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   text-align: center;
   color: #3b2f1e;
   font-family: "segoe UI", serif;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.signboard-box h2 {
-  font-family: lobster, serif;
-  font-size: 2.5rem;
+  align-items: center;
 }
 
 #introOverlay h2 {
-  font-size: 30px;
+  font-family: lobster, serif;
+  font-size: 40px;
   margin-top: 50px;
 }
 
@@ -70,6 +67,11 @@
   font-size: 20px;
   line-height: 1.5;
 }
+
+.btn.rounded-pill {
+  max-width: 77%;
+}
+
 /* Signboard & Intro Styles End */
 
 /* Background, Navbar and Hero Image/comtainer */
@@ -288,7 +290,7 @@ button.btn:hover {
     max-width: 600px;
     min-width: 350px;
     min-height: 200px;
-    padding: 8.5rem 5rem 6rem 5rem;
+    padding: 2.5rem 5rem 6rem 5rem;
     text-align: center;
     color: #3b2f1e;
     font-family: "Lobster", serif;
@@ -304,4 +306,15 @@ button.btn:hover {
   .signboard-box button {
     font-family: "Segoe UI", sans-serif;
   }
+
+   .signboard-box h2 {
+    margin-bottom: 3rem; /* Increase space below h2 */
+  }
+  .signboard-box p {
+    margin-bottom: 2rem; /* Increase space below p */
+  }
+  .signboard-box button {
+    margin-top: 2.5rem; /* Increase space above button */
+  }
+
 }
