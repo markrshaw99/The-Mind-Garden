@@ -35,7 +35,7 @@
 }
 
 .signboard-box {
-  background: url(../Images/signboardmobile.png) no-repeat center center; /* Use your own image here */
+  background: url(../Images/signboard-mobile.png) no-repeat center center; /* Use your own image here */
   background-size: contain;
   width: 100vw;
   max-width: 500px;
@@ -69,7 +69,7 @@ margin-top: 50px;
 
 /* Background, Navbar and Hero Image/comtainer */
 body {
-  background: url("../Images/Background Grass.jpg") center center fixed; 
+  background: url("../Images/background-grass.jpg") center center fixed; 
 }
 
 .custom-navbar-bg {
@@ -239,7 +239,7 @@ body {
 }
 
  .signboard-box {
-    background: url(../Images/signboarddesktop.png) no-repeat center center;
+    background: url(../Images/signboard-desktop.png) no-repeat center center;
     background-size: 100% 100%;
     width: 40vw;
     max-width: 600px;
