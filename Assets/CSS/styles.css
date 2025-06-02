@@ -50,7 +50,7 @@
     font-family: lobster, serif; /* Change font family */
     font-size: 2.5rem; /* Change font size */
   }
-}
+
 
 #introOverlay h2 {
 font-size: 30px;
@@ -93,8 +93,7 @@ body {
   overflow-y: hidden;        /* Prevents vertical scrolling if not needed */
   white-space: nowrap;       /* Helps if you're stacking inline elements */
   box-sizing: border-box;
-  scrollbar-width: none;      /* For Firefox */
-  ms-overflow-style: none;   /* For Internet Explorer and Edge */
+  scrollbar-width: none;
   position: relative; /* Allows for absolute positioning of child elements if needed */
   height: 92vh;              /* Full viewport height */
   display: flex;            /* Allows for flexible layout */
