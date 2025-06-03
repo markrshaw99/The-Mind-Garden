@@ -302,13 +302,12 @@ Testing and validation os the website was carried out throughout the course of t
 This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
 
 [HTML Validation](https://validator.w3.org/)<br>
-![HTML Validation](Documentation/html-validation.jpg)
-
+![HTML Validation](/Documentation/html-validation.JPG)
 [CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
-![CSS Validation](Documentation/css-validation.jpg)
+![CSS Validation](/Documentation/css-validation.JPG)
 
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
-![Lighthouse](Documentation/lighthouse-test.jpg)
+![Lighthouse](Documentation/lighthouse-test.JPG)
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
