@@ -308,7 +308,7 @@ This included regular debugging and testing using the Dev Tools as ptovided with
 ![CSS Validation](documentation/css-validation.jpg)
 
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
-![Lighthouse](documentation/lighthouse.jpg)
+![Lighthouse](documentation/lighthouse-test.jpg)
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
