@@ -37,7 +37,7 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  transition: opacity 2s;
+  transition: opacity 1.5s;
 }
 
 .signboard-box {
@@ -205,7 +205,7 @@ section {
 
 /* Pots & Plants Section Styles */
 
-/* 🌱 Plants Styling */
+/* Plants Styling */
 .card {
   border: none;
   border-radius: 1.5rem;
@@ -220,7 +220,7 @@ section {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* 🌻 Section header style */
+/* Section header style */
 .container h1 {
   color: #3b5f3b;
 }
@@ -384,6 +384,48 @@ button.btn:hover {
   color: #444;
   font-size: 1rem;
 }
+
+/* sunshine section styles end */
+
+/*bees section styles*/
+
+/* Base styles for the Bees & Butterflies/Support section */
+#bees {
+  text-align: center;
+  position: relative;
+}
+
+/* Support Card Styling */
+.support-card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+.support-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* Icon Enhancements */
+.support-icon {
+  transition: transform 0.3s ease;
+}
+.support-card:hover .support-icon {
+  transform: scale(1.1);
+}
+
+/* Typography Adjustments */
+#bees h2 {
+  color: #3b5f3b;
+  margin-bottom: 1rem;
+}
+#bees p {
+  color: #444;
+  font-size: 1rem;
+}
+/* Bees Section Styles End */
+
 
 
 /* Responsive adjustments */

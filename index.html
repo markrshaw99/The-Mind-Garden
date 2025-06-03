@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="Assets/Images/favicon.ico" sizes="32x32">
 </head>
 
 <body>
@@ -75,7 +76,7 @@
   </nav>
 
   <div class="scrollable-image-container">
-    <img src="Assets/Images/mind-garden.jpg" alt="Mind Garden Background" usemap="#image-map">
+    <img src="Assets/Images/mind-garden.webp" alt="Mind Garden Background" usemap="#image-map">
     <map name="image-map">
       <area alt="Mind Garden" title="Mind Garden" href="#mindgarden" coords="74,522,77,338,419,343,495,430,413,522"
         shape="poly">
@@ -145,7 +146,7 @@
         </div>
 
         <div class="col-md-5 d-none d-md-block">
-          <img src="Assets/Images/garden-gate.png" alt="Garden Gate Illustration" class="img-fluid">
+          <img src="Assets/Images/garden-gate.webp" alt="Garden Gate Illustration" class="img-fluid">
         </div>
       </div>
     </div>
@@ -456,7 +457,7 @@
   <section id="sunshine" class="container py-5 custom-fade">
   <div class="sun-content">
     <h2 class="sun-heading" style="font-family: 'Lobster', cursive;">Everybody Loves The Sunshine</h2>
-    <img src="Assets/Images/sun.png" alt="Rising Sun" class="sun-image img-fluid">
+    <img src="Assets/Images/sun.webp" alt="Rising Sun" class="sun-image img-fluid">
     <p class="lead">
       The sun brightens our path, offering warmth and energy that inspires growth. Its light fills our hearts with optimism.
     </p>
@@ -467,32 +468,79 @@
 </section>
 
 
-  <section id="bees" class="container py-5 bg-light bg-opacity-50 custom-fade">
-    <div>
-      <h2>Temporary Heading for Validation Purposes</h2>
-    </div>6
-  </section>
-  <br>
-  <br>
-  <br>
+  <section id="bees" class="container py-5 custom-fade">
+  <h2 class="text-center mb-4">
+    Bees & Butterflies<br>🐝🦋🐝<br>
+    <span style="font-size:1.2rem;">Our Support Network</span>
+  </h2>
+  <p class="text-center mb-5">
+    Just as bees diligently pollinate and butterflies add vibrant energy to a garden, our community nurtures us by forging strong, nurturing connections. Every interaction helps our garden thrive.
+  </p>
+  
+  <div class="row">
+    <!-- Card 1: Active Support -->
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center shadow-sm h-100 support-card">
+        <div class="card-body">
+          <div class="support-icon" style="font-size: 3rem;">🐝</div>
+          <h5 class="card-title mt-3">Active Support</h5>
+          <p class="card-text">
+            Like busy bees, our support network brings energy and connectivity, ensuring that no one is left to struggle alone.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2: Gentle Care -->
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center shadow-sm h-100 support-card">
+        <div class="card-body">
+          <div class="support-icon" style="font-size: 3rem;">🦋</div>
+          <h5 class="card-title mt-3">Gentle Care</h5>
+          <p class="card-text">
+            Like delicate butterflies, each personal connection contributes beauty, warmth, and comfort to our shared growth.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3: Shared Growth -->
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center shadow-sm h-100 support-card">
+        <div class="card-body">
+          <div class="support-icon" style="font-size: 3rem;">🤝</div>
+          <h5 class="card-title mt-3">Shared Growth</h5>
+          <p class="card-text">
+            Together, our connections create a resilient network that nurtures each member’s growth—we all rise through solidarity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section id="weeds" class="container py-5 bg-light bg-opacity-50 custom-fade">
+  <section id="raincloud" class="container py-5 custom-fade">
+  <div class="raincloud-content text-center">
+    <!-- Raincloud Image/Icon: Replace the source with your asset -->
+    <img src="Assets/Images/raincloud.png" alt="Rain Cloud" class="img-fluid raincloud-image">
+    <h2 class="raincloud-heading" style="font-family: 'Lobster', cursive;">Rainclouds</h2>
+    <p class="lead">
+      At times, our minds feel weighed down like a dark, heavy cloud.
+    </p>
+    <p>
+      Emotions—like rain—can fall softly, reminding us that it's natural to have moments of melancholy.
+      Even the heaviest rain eventually clears, paving the way for sunshine.
+    </p>
+  </div>
+</section>
+
+
+ <section id="weeds" class="container py-5 bg-light bg-opacity-50 custom-fade">
     <div>
       <h2>Temporary Heading for Validation Purposes</h2>
     </div>7
   </section>
   <br>
   <br>
-  <br>
 
-  <section id="raincloud" class="container py-5 bg-light bg-opacity-50 custom-fade">
-    <div>
-      <h2>Temporary Heading for Validation Purposes</h2>
-    </div>8
-  </section>
-  <br>
-  <br>
-  <br>
 
   <section id="wateringcan" class="container py-5 bg-light bg-opacity-50 custom-fade">
     <div>
@@ -528,11 +576,9 @@
     function hideOverlay() {
       const overlay = document.getElementById("introOverlay");
       overlay.style.opacity = "0";
-      setTimeout(() => (overlay.style.display = "none"), 2000);
+      setTimeout(() => (overlay.style.display = "none"), 1500);
     }
-
-    // Optionally, auto-hide after some time
-    // setTimeout(hideOverlay, 8000);
+     setTimeout(hideOverlay, 10000);
   </script>
 
 </body>
