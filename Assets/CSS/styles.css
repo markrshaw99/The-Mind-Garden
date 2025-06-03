@@ -75,7 +75,7 @@
 
 /* Background, Navbar and Hero Image/comtainer */
 body {
-  background: url("/Images/background-grass.jpg") center center fixed;
+  background: url("../Images/background-grass.jpg") center center fixed;
 }
 
 .custom-navbar-bg {
@@ -189,7 +189,6 @@ section {
   background-image: url(../Images/seeds.webp);
   background-size: cover;
   background-position: center;
-  color: #2e7d32;
   font-weight: bold;
   font-size: 1.2rem;
 }
