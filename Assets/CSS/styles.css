@@ -437,6 +437,55 @@ button.btn:hover {
 }
 /* Raincloud section styles end */
 
+/* Weeds section styles */
+
+.weeds-image {
+  max-width: 200px;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.weeds-image:hover,
+.weeds-image:focus {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Weeds Section Styles End */
+
+/* Watering Can Section Styles */
+
+/* Base styles for Watering Can section */
+#wateringcan {
+  background: linear-gradient(135deg, #eafbf5, #d0efdc);
+}
+/* Watering Can image styling */
+.watering-can-image {
+  max-width: 60%;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.watering-can-image:hover,
+.watering-can-image:focus {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+
+
+/* Desktop Enhancements */
+@media (min-width: 768px) {
+  #wateringcan {
+    padding: 4rem;
+  }
+  .carousel-item p {
+    font-size: 1.1rem;
+  }
+}
+
+
+/* Watering Can Section Styles End */
+
 /* Responsive adjustments */
 
 /* Adjustments for Medium Screens/Tablets */
