@@ -301,12 +301,12 @@ Testing and validation os the website was carried out throughout the course of t
 
 This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
 
-[HTML Validation](https://validator.w3.org/)<br>
+- [HTML Validation](https://validator.w3.org/)<br>
 ![HTML Validation](/Documentation/html-validation.JPG)
-[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
+- [CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
 ![CSS Validation](/Documentation/css-validation.JPG)
 
-[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
 ![Lighthouse](Documentation/lighthouse-test.JPG)
 
 <hr>
