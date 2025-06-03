@@ -179,7 +179,6 @@ section {
   height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,11 +186,12 @@ section {
 }
 
 .seed-front {
-  background-color: #e9fbe5;
+  background-image: url(../Images/seeds.webp);
+  background-size: cover;
+  background-position: center;
   color: #2e7d32;
   font-weight: bold;
   font-size: 1.2rem;
-  border: 2px dashed #81c784;
 }
 
 .seed-back {
