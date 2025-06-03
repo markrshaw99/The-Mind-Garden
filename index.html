@@ -460,7 +460,8 @@
   <section id="sunshine" class="container py-5 custom-fade">
     <div class="sun-content">
       <h2 class="sun-heading" style="font-family: 'Lobster', cursive;">Everybody Loves The Sunshine</h2>
-      <img src="Assets/Images/sun.webp" alt="Rising Sun" class="sun-image img-fluid">
+      <img src="Assets/Images/sun.webp" alt="Rising Sun" class="sun-image img-fluid" id="sun-image">
+      <audio id="sun-audio" src="Assets/Audio/elts.mp3"></audio>
       <p class="lead">
         The sun brightens our path, offering warmth and energy that inspires growth. Its light fills our hearts with
         optimism.
@@ -626,6 +627,17 @@
     }
     setTimeout(hideOverlay, 10000);
   </script>
+
+  <script>
+  document.getElementById('sun-image').addEventListener('click', function () {
+    var audio = document.getElementById('sun-audio');
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+</script>
 
 </body>
 
