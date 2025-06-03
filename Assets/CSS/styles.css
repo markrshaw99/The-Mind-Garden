@@ -474,7 +474,18 @@ button.btn:hover {
   filter: brightness(1.1);
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: 1.5rem 1.5rem;
+}
 
 /* Desktop Enhancements */
 @media (min-width: 768px) {
@@ -550,5 +561,6 @@ button.btn:hover {
   .signboard-box button {
     margin-top: 1rem;
   }
+
 
 }
