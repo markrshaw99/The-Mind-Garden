@@ -10,7 +10,6 @@
 ## Introduction 
 
 The Mind Garden is a web-based mental health awareness project developed as part of the Code Institute Full Stack Software Developer Bootcamp. This project acts as a summary of all I have learned so far during the first 4 weeks of the Bootcamp, with the major focus being on HTML, CSS and Bootstrap. I have aimed to produce a creative exploration of mental well-being, using the rich metaphor of a garden to illustrate both the challenges we face and the growth we can cultivate. In this garden, each element - from the hopeful planting of seeds to the nurturing care of a watering can - symbolises different aspects of our mental wellbeing. 
-
 <p align="center">
 
 <h2 align="center" id="TOC">Table of Contents</h2>
@@ -76,8 +75,6 @@ Ultimately, The Mind Garden is more than just a traditional website — it’s a
 
 
 ## User Stories 
-- ...
-- ...
 
 | **Name & Context**| **Quote**| **Design Needs**|
 |-|-|-|
