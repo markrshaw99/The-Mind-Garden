@@ -95,6 +95,10 @@ body {
   font-weight: bold;
 }
 
+.navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
 .scrollable-image-container {
   width: auto;
   overflow-x: auto;
