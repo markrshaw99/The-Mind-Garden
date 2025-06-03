@@ -529,7 +529,10 @@
   <section id="raincloud" class="container py-5 custom-fade">
     <div class="raincloud-content text-center">
       <h2 class="raincloud-heading" style="font-family: 'Lobster', cursive;">Rainclouds</h2>
-      <img src="Assets/Images/raincloud.webp" alt="Rain Cloud" class="img-fluid raincloud-image">
+      <img src="Assets/Images/raincloud.webp" alt="Rain Cloud" class="img-fluid raincloud-image" id="raincloud-image">
+            <p class="text small mb-3">Click the Cloud to let Eddie Rabitt make you feel better about the rain</p>
+
+      <audio id="raincloud-audio" src="Assets/Audio/ilarn.mp3"></audio>
       <p class="lead">
         At times, our minds feel weighed down like a dark, heavy cloud.
       </p>
@@ -629,12 +632,26 @@
   </script>
 
   <script>
+  const sunAudio = document.getElementById('sun-audio');
+  const rainAudio = document.getElementById('raincloud-audio');
+
   document.getElementById('sun-image').addEventListener('click', function () {
-    var audio = document.getElementById('sun-audio');
-    if (audio.paused) {
-      audio.play();
+    if (!sunAudio.paused) {
+      sunAudio.pause();
     } else {
-      audio.pause();
+      rainAudio.pause(); // Pause the cloud audio if playing
+      sunAudio.currentTime = 0;
+      sunAudio.play();
+    }
+  });
+
+  document.getElementById('raincloud-image').addEventListener('click', function () {
+    if (!rainAudio.paused) {
+      rainAudio.pause();
+    } else {
+      sunAudio.pause(); // Pause the sun audio if playing
+      rainAudio.currentTime = 0;
+      rainAudio.play();
     }
   });
 </script>
