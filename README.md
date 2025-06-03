@@ -269,12 +269,15 @@ The Mind Garden is designed as an **interactive, one-page experience** that enga
 
 ### Tools and Programs
 <a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
-- Photoshop
+- <a href ="https://www.adobe.com/uk/products/photoshop.html
+">Photoshop<a/>
 - <a href ="https://www.image-map.net/">HTML Image Map Maker<a/>
 - <a href ="https://audiotrimmer.com/">Audio Trimmer<a/>
 - <a href ="https://emojipedia.org/">Emojipedia<a/>
+- <a href ="https://pngtree.com/">PNG Tree<a/>
+- <a href ="https://code.visualstudio.com/
+">VSCode<a/>
 
-- PNG Tree
 
 
 
@@ -282,12 +285,7 @@ The Mind Garden is designed as an **interactive, one-page experience** that enga
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
 ## Deployment
-Setup a repo using this method and template:
-1. Login to your GitHub profile.
-2.
-3.
-4.
-5.
+Setup a repo using Github
  
 Once the project repo is created, an early deployment for the live project should performed.<br>
 This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
@@ -304,33 +302,30 @@ Testing and validation os the website was carried out throughout the course of t
 This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
 
 [HTML Validation](https://validator.w3.org/)<br>
-![HTML Validation](/documentation/images/validation-html.webp)
+![HTML Validation](/Documentation/html-validation.jpg)
 
 [CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
-![CSS Validation](/documentation/images/validation-css.webp)
+![CSS Validation](/Documentation/css-validation.jpg)
 
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
-![Lighthouse](/documentation/images/lighthouse.webp)
+![Lighthouse](/Documentation/lighthouse.jpg)
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
+
+## Future Work & Improvements
+
+Primarily, my main limitation on this project has been time. If I had another day to complete this project, there are a few immediate immprovements I would make:
+ - Lighthouse gives immediate feedback into the performance savings that can be made by ensuring all images are compressed and in .webp format
+ - I would set images further down the page to loading=lazy to speed up initial loading
+ - I would ensure all elements have aria-labels where neccesary to make the site 100% accessible
+ - Although not the focus of this project, if i was more proficient in javascript I would add the functionality for the user to add their own content such as seedlings, flowerpots and journal entries using local storage. 
 
 ## Credits
 
 ### Code
 
 Project and primary learning supplied by [Code Institute](https://codeinstitute.net/ie/)<br>
-Supplemental learning resources directly used / referenced within the project:
-
-- 
-- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
-- [Bootstrap 5 Crash Course Tutorial #9 - Navbars - YouTube](https://www.youtube.com/watch?v=7AT1X9Z41sA&t=677s)
-- [CSS Variables - The var() function](https://www.w3schools.com/css/css3_variables.asp)
-- [Gemini](https://gemini.google.com) as a learning tool, no code was directly used
-- [Make cards same height side-by-side in Bootstrap 5 - YouTube](https://www.youtube.com/watch?v=wolSRMGJ-Ls)
-- [Mozilla - mdn web docs](https://developer.mozilla.org/)
-
-All additional sources that complemented my learning can be round within additional [research](/documentation/research.md).
 
 ### Content Research
 
@@ -342,7 +337,7 @@ All additional sources that complemented my learning can be round within additio
 
 ### Acknowledgements
 
-- ...
+- Thanks to my girlfriend for bug-testing on different platforms and helping to identify flaws and weaknesses.
 
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
