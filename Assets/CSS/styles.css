@@ -205,7 +205,7 @@ section {
 
 /* Pots & Plants Section Styles */
 
-/* 🌱 General Pot Styling */
+/* 🌱 Plants Styling */
 .card {
   border: none;
   border-radius: 1.5rem;
@@ -231,7 +231,7 @@ section {
   text-shadow: 1px 1px #d4eed1;
 }
 
-/* 🌾 Custom buttons */
+/* Custom buttons */
 .btn-outline-success,
 .btn-outline-primary,
 .btn-outline-secondary,
@@ -252,6 +252,138 @@ button.btn:hover {
 
 /* Pots & Plants Section Styles End */
 
+.flower-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.flower {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bloom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s ease-in-out;
+  font-size: 1rem;
+  color: #3b5f3b;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flower:hover .bloom {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+
+/* Sunshine Section Styles */
+
+#sunshine {
+  background: linear-gradient(135deg, #fffbe0, #ffe066);
+  text-align: center;
+  animation: gentleGlow 40s ease-in-out infinite;
+}
+
+@keyframes gentleGlow {
+  0% {
+    background: linear-gradient(135deg, #fffbe0, #ffe066); /* pale yellow */
+  }
+  5% {
+    background: linear-gradient(135deg, #ffe066, #ffd700); /* soft yellow to gold */
+  }
+  10% {
+    background: linear-gradient(135deg, #ffd700, #ffc300); /* gold to deeper gold */
+  }
+  15% {
+    background: linear-gradient(135deg, #ffc300, #ffb300); /* golden yellow */
+  }
+  20% {
+    background: linear-gradient(135deg, #ffb300, #ffae42); /* goldenrod */
+  }
+  25% {
+    background: linear-gradient(135deg, #ffae42, #fff700); /* gold to bright yellow */
+  }
+  30% {
+    background: linear-gradient(135deg, #fff700, #fffbe0); /* bright yellow to pale */
+  }
+  35% {
+    background: linear-gradient(135deg, #fffbe0, #ffe066);
+  }
+  40% {
+    background: linear-gradient(135deg, #ffe066, #ffd700);
+  }
+  45% {
+    background: linear-gradient(135deg, #ffd700, #ffc300);
+  }
+  50% {
+    background: linear-gradient(135deg, #ffc300, #ffb300);
+  }
+  55% {
+    background: linear-gradient(135deg, #ffb300, #ffae42);
+  }
+  60% {
+    background: linear-gradient(135deg, #ffae42, #fff700);
+  }
+  65% {
+    background: linear-gradient(135deg, #fff700, #fffbe0);
+  }
+  70% {
+    background: linear-gradient(135deg, #fffbe0, #ffe066);
+  }
+  75% {
+    background: linear-gradient(135deg, #ffe066, #ffd700);
+  }
+  80% {
+    background: linear-gradient(135deg, #ffd700, #ffc300);
+  }
+  85% {
+    background: linear-gradient(135deg, #ffc300, #ffb300);
+  }
+  90% {
+    background: linear-gradient(135deg, #ffb300, #ffae42);
+  }
+  95% {
+    background: linear-gradient(135deg, #ffae42, #fffbe0);
+  }
+  100% {
+    background: linear-gradient(135deg, #fffbe0, #ffe066);
+  }
+}
+
+.sun-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sun-image {
+  max-width: 60%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.sun-image:hover,
+.sun-image:focus {
+  transform: scale(1.2);
+  filter: brightness(1.5);
+}
+
+/* Heading and paragraph styling */
+.sun-heading {
+  color: #3b5f3b;
+  margin-bottom: 1rem;
+}
+#sunshine p {
+  color: #444;
+  font-size: 1rem;
+}
 
 
 /* Responsive adjustments */
