@@ -1,6 +1,6 @@
 # The Mind Garden
 
-![The Mind Garden - Project Banner](/Assets/Images/Mind%20Garden.jpg)
+![The Mind Garden - Project Banner](/Assets/Images/mind-garden.jpg)
 
 
 <p align="center">
