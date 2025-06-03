@@ -50,9 +50,9 @@ The Mind Garden is a web-based mental health awareness project developed as part
 
 ## Project Outline
 
-The Mind Garden is a web-based mental health awareness project developed as part of the Code Institute Full Stack Software Developer Bootcamp. This project is a creative exploration of mental well-being, using the rich metaphor of a garden to illustrate both the challenges we face and the growth we can cultivate. In this garden, each element - from the hopeful planting of seeds to the nurturing care of a watering can—symbolizes different aspects of our mental wellbeing.
+The Mind Garden is a web-based mental health awareness project developed as part of the Code Institute Full Stack Software Developer Bootcamp. This project is a creative exploration of mental well-being, using the rich metaphor of a garden to illustrate both the challenges we face and the growth we can cultivate. In this garden, each element - from the hopeful planting of seeds to the nurturing care of a watering can—symbolises different aspects of our mental wellbeing.
 
-Recognizing the sensitivity of mental health topics, I aimed to create a space that is both respectful and relatable. The design intentionally maintains a dignified tone while inviting users to explore and reflect. To achieve this balance, I incorporated playful touches, such as light-hearted cartoon imagery and humurous audio, that add warmth and joy without undermining the serious subject matter.
+Recognising the sensitivity of mental health topics, I aimed to create a space that is both respectful and relatable. The design intentionally maintains a dignified tone while inviting users to explore and reflect. To achieve this balance, I incorporated playful touches, such as light-hearted cartoon imagery and humurous audio, that add warmth and joy without undermining the serious subject matter.
 
 Through carefully structured sections such as Planting Seeds, the bees and butterflies, Rainclouds and The Watering Can — the page guides users on a journey from acknowledging their challenges to taking proactive steps for self-care. Each metaphor is enhanced by responsive design principles using HTML, CSS, and Bootstrap, ensuring that the experience is accessible and engaging across all devices.
 
@@ -64,11 +64,11 @@ Ultimately, The Mind Garden is more than just a traditional website — it’s a
 
 - Rigorous Code Testing and Validation (LO2: Testing and Validation): • Validate all custom HTML and CSS using W3C and Jigsaw validators to ensure error‑free code. • Apply CSS media queries to deliver a consistent, responsive experience across various screen sizes, ensuring intuitive navigation on the single‑page application. (Learning outcomes: LO2.1 and LO2.2)
 
-- Seamless Cloud Deployment and Version Control (LO3: Cloud Deployment): • Deploy the final version of the project to a cloud‑based hosting platform, ensuring no discrepancies between the development and live versions. • Utilize Git and GitHub for version control, maintain a clear commit history, and remove commented‑out code so that all internal links and interactive elements function as intended. (Learning outcome: LO3.1)
+- Seamless Cloud Deployment and Version Control (LO3: Cloud Deployment): • Deploy the final version of the project to a cloud‑based hosting platform, ensuring no discrepancies between the development and live versions. • Utilise Git and GitHub for version control, maintain a clear commit history, and remove commented‑out code so that all internal links and interactive elements function as intended. (Learning outcome: LO3.1)
 
-- Comprehensive Documentation for Future Maintainability (LO4: Documentation): • Provide clear documentation and a concise README file that outlines the project’s purpose, user value, key features, and deployment procedure. • Include annotated screenshots, feature descriptions, and proper attribution for any external code or resources to maximize long-term maintainability. (Learning outcome: LO4.1)
+- Comprehensive Documentation for Future Maintainability (LO4: Documentation): • Provide clear documentation and a concise README file that outlines the project’s purpose, user value, key features, and deployment procedure. • Include annotated screenshots, feature descriptions, and proper attribution for any external code or resources to maximise long-term maintainability. (Learning outcome: LO4.1)
 
-- Strategic Use of AI Tools to Enhance Development (LO5: AI-Assisted Development): • Leverage AI tools for generating, debugging, and optimizing code, which not only accelerates the development process but also contributes to improved performance and a better user experience. • Include reflective insights within the README, summarizing how AI influenced key decisions and streamlined workflow—from code creation to code refinement—without overcomplicating the documentation with in‑depth prompt details. (Learning outcomes: LO5.1, LO5.2, LO5.3, and LO5.4)
+- Strategic Use of AI Tools to Enhance Development (LO5: AI-Assisted Development): • Leverage AI tools for generating, debugging, and optimising code, which not only accelerates the development process but also contributes to improved performance and a better user experience. • Include reflective insights within the README, summarising how AI influenced key decisions and streamlined workflow—from code creation to code refinement—without overcomplicating the documentation with in‑depth prompt details. (Learning outcomes: LO5.1, LO5.2, LO5.3, and LO5.4)
 <hr>
 <p align="right"><a href="#the-mind-garden">Back To Top</a></p>
 
@@ -98,13 +98,13 @@ The Mind Garden was crafted with a focus on delivering a supportive and engaging
 ### Design Principles & Approach
 
 #### Mobile‑First, Responsive Layout: 
-The site is built using a mobile‑first philosophy, prioritizing essential content and functionality for smaller devices first, then enhancing the experience on tablets and desktops.
+The site is built using a mobile‑first philosophy, prioritising essential content and functionality for smaller devices first, then enhancing the experience on tablets and desktops.
 
 #### Implementation: 
 CSS media queries along with Bootstrap’s grid system and Flexbox ensure that every component—from the fixed-top navigation to the scrollable garden image—adapts seamlessly to different screen sizes.
 
 #### Interactive Storytelling Through the Garden Metaphor:
-The entire experience is framed as a living garden, with each section symbolizing a different aspect of mental well-being:
+The entire experience is framed as a living garden, with each section symbolising a different aspect of mental well-being:
 
 #### Interactive Image Map:
 Users explore the digital garden by clicking on visible hotspots in the background image, transporting them to different sections like “Sunshine,” “Rainclouds,” “Pesky Weeds,” and “Pots & Plants.”
@@ -132,7 +132,7 @@ The gentle use of soft backgrounds, refined typography, and carefully balanced c
 
 ### Planning and Iterative Refinement
 
-During the development phase, I engaged in thorough design planning and concept exploration to determine the best ways to organize content, interactivity, and navigation. This preliminary work guided decisions on layout, interactive elements, and visual styles. Iterative testing helped ensure that the final product delivers a seamless, intuitive experience, with immediate feedback for actions and consistent aesthetics across all devices.
+During the development phase, I engaged in thorough design planning and concept exploration to determine the best ways to organise content, interactivity, and navigation. This preliminary work guided decisions on layout, interactive elements, and visual styles. Iterative testing helped ensure that the final product delivers a seamless, intuitive experience, with immediate feedback for actions and consistent aesthetics across all devices.
 ### Outcome and Testing
 
 #### User Engagement: 
@@ -219,7 +219,7 @@ The Mind Garden is designed as an **interactive, one-page experience** that enga
 - **Custom Typography:** A playful heading, styled with Google Fonts, gives this section an uplifting energy.
 
 #### **Bees & Butterflies - Community & Connection**
-- **Support Network Concept:** This section symbolizes relationships and mental well-being using three Bootstrap cards:
+- **Support Network Concept:** This section symbolises relationships and mental well-being using three Bootstrap cards:
   - **Active Support** – representing busy, dependable connections.
   - **Gentle Care** – embodying soft, uplifting interactions.
   - **Shared Growth** – reinforcing the power of mutual support.
@@ -230,13 +230,13 @@ The Mind Garden is designed as an **interactive, one-page experience** that enga
   - Users can click the **raincloud**, triggering an audio track designed to lighten the mood.
   - The section acknowledges emotional heaviness while reinforcing resilience.
 - **Pesky Weeds: Thought Patterns & Growth**  
-  - A **visual metaphor for intrusive thoughts**, this section encourages users to recognize and challenge negative thinking.
+  - A **visual metaphor for intrusive thoughts**, this section encourages users to recognise and challenge negative thinking.
 - **Watering Can: Self-Care Strategies Carousel**  
   - A **Bootstrap-powered carousel** cycles through practical self-care techniques.
   - Animated **section transitions** highlight growth and renewal.
 
 ### **Responsive Design**
-- **Mobile-First Approach:** Layouts are optimized for small screens first, ensuring a seamless experience across all devices.
+- **Mobile-First Approach:** Layouts are optimised for small screens first, ensuring a seamless experience across all devices.
 - **Bootstrap Grid System:** Sections adapt dynamically, whether viewed on a phone, tablet, or desktop.
 - **CSS Media Queries:** Refinements at breakpoints ensure intuitive scaling without breaking functionality.
 
